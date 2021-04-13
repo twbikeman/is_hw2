@@ -63,6 +63,13 @@ public class test {
 
         System.out.println(Integer.toString(MixColumn[0x2 / 2 - 1][0xf - 1], 16));
 
+
+        String s = "AABBCCDD";
+
+        System.out.printf("%s\n", ("00000000").substring(s.length()) + s);
+        
+
+
     }   
 
 }
